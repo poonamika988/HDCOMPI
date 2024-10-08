@@ -70,7 +70,7 @@ class Config:
             self.QDL_TIMEOUT = config("QBIT_DL_TIMEOUT", default=0, cast=int)
             self.QBIT_PORT = config("QBIT_PORT", default=8090, cast=int)
             self.QBIT_TIMEOUT = config("QBIT_TIMEOUT", default=20, cast=int)
-            self.RELEASER = config("RELEASER", default="CR")
+            self.RELEASER = config("RELEASER", default="HD")
             self.REPORT_FAILED = config("REPORT_FAILED", default=True, cast=bool)
             self.REPORT_FAILED_DL = config("REPORT_FAILED_DL", default=False, cast=bool)
             self.REPORT_FAILED_ENC = config(
